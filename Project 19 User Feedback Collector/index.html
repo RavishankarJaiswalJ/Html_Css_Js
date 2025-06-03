@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback Collector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>📝 Give Us Your Feedback</h2>
+
+    <div class="form">
+      <label for="rating">Rating:</label>
+      <div class="stars" id="stars">
+        ★★★★★
+      </div>
+
+      <textarea id="comment" rows="4" placeholder="Your feedback..."></textarea>
+      <button onclick="submitFeedback()">Submit</button>
+    </div>
+
+    <h3>📬 Previous Feedbacks:</h3>
+    <ul id="feedbackList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

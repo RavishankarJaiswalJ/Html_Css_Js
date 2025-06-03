@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.quote-box {
+  text-align: center;
+  max-width: 500px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#quote {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#author {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  color: #2575fc;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
